@@ -3,11 +3,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ArrayAfterFour {
-    public static void main(String[] args) {
-        int[] array = {1, 2, 4, 4, 2, 4, 3, 1, 7};
-        System.out.println(Arrays.toString(newArray(array)));
-    }
-
     public static Integer[] newArray(int[] array){
         List<Integer> list = new ArrayList<>();
         for (int i = array.length - 1; i >= 0 ; i--) {
